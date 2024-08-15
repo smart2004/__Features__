@@ -1,0 +1,23 @@
+DT-RING & DT-RING+ pool technology.
+
+Industrial Ethernet pool technology allow to overcome limit, connected to typical Ethernet topology, that has 'star'-form or 'tree', 
+to prohibit use of loops.
+In classic Ethernet networks does not allowed to have several ways of data transfer between two endpoints, as it may lead to broadcast storm and 
+whole network inactivity.
+However with use of pool technology in Industrial Ethernet it became possible to have redubdant communication path for reliability & fault tolerance
+provision.
+
+There implemented DT-RING & DT-RING+ pool technologies in Kyland switches, theese allow to create networks with excess connections in 'ring' topology
+with time interval of 50ms for switchng from the main communication channel to backup channel.
+
+
+DT-RING/DT-RING+ protocol features:
+- All switches in one ring should have equal domain name;
+- It's not required for various domains to have different names;
+- Every ring should has only the master and several slaves;
+- It could be adjusted for ring via two ports only;
+- It may to adjust not more than pool couple ports in one ring;
+- It could be adjusted only a pool port for one ring;
+- DT-Ring-Port & DT-Ring-VLAN unable to use together.
+
+
